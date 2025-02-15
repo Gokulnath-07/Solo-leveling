@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .background{
+            width: 100vw;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(https://images7.alphacoders.com/132/1320546.jpeg);
+        }
+        .backdrop{
+            /* position: relative; */
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -20;
+            width: 100vw;
+            height: 100vh;
+        }
+        .backdrop h1{
+            position: absolute;
+            left: 50%;
+            translate: -50% -50%;
+            color: rgba(255, 0, 55, 0.473);
+            top: 40%;
+            font-size: 100px;
+            font-style: italic;
+            text-align: center;
+        }
+        button{
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            translate: -50% -50%;
+            border: none;
+            font-size: 40px;
+            padding: 15px;
+            background-color: transparent;
+            border: 1px solid white;
+            color: rgb(243, 240, 240);
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="backdrop">
+            <h1>Solo Leveling!</h1>
+            <button>Arise</button>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>
